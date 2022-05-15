@@ -7,7 +7,17 @@
       name: apache2
       state: present
 
+  - name: start apache2
+    service:
+        name: apache2
+        state: restarted
+
   - name: install git
     apt: 
       name: git 
       state: present
+
+  - name: stop git
+    service:
+        name: git
+        state: stopped
