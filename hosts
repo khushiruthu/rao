@@ -1,2 +1,7 @@
 172.31.13.137
 172.31.10.3
+
+[mywebservers:vars]
+myvar: value
+mywebpackonubuntu: nginx22222
+mywebpackonredhat: httpd
