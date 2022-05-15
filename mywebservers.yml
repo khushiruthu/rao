@@ -10,7 +10,7 @@
     when: ansible_os_family =="debian"
   
   - name: start apache2
-    sevice: 
+    service: 
         name: apache2
         state: restarted
     when: ansible_os_family =="debian"
