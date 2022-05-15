@@ -15,7 +15,7 @@
         state: restarted
     when: ansible_os_family =="debian"
 
-  - name: install webserver on redhat node
+  - name: install webserver on redhat nodes
     yum:
       name: httpd
       state: present
