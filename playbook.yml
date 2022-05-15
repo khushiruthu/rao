@@ -17,7 +17,7 @@
       name: git 
       state: present
 
-  - name: stop git
+  - name: start git
     service:
         name: git
-        state: stopped
+        state: restarted
