@@ -10,5 +10,5 @@
 
   - name: copy static files into ansible nodes side
     template:
-         src:
+         src: mystaticfile.html
          dest: /var/www/html/index.html
