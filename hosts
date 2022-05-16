@@ -1,4 +1,4 @@
-[mywebservers]
+[webserver]
 172.31.13.137 
 [redhatserver]
 172.31.10.3 
