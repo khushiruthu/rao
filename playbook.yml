@@ -1,5 +1,5 @@
 ---
-- hosts: webserver
+- hosts: mywebservers
   tasks: 
   - name: install apache2 
     apt:
